@@ -1,4 +1,4 @@
-# 3.5.0 - April 22nd 2026
+# 3.5.1 - April 22nd 2026
 
 ### Changes
 
