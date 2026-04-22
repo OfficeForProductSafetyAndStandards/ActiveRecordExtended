@@ -1,3 +1,15 @@
+# 3.5.0 - April 22nd 2026
+
+### Changes
+
+- Added Rails 8.1 support
+- Updated gem dependencies to latest versions (ActiveRecord 8.1.3, RuboCop 1.86.1, and others)
+- Added `activerecord-81.gemfile` to the test matrix
+
+### Bugfixes
+
+- Fixed `Style/OneClassPerFile` RuboCop offense in `where_chain.rb`
+
 # 3.4.0 - October 6th 2025
 
 - Added Rails 8.0 support
@@ -298,4 +310,3 @@ Major thanks to [Dan McClain author of Postgres Ext](https://github.com/dockyard
 Added ActiveRecord Base Extensions
 - .either_order/2
 - .either_join/2
-

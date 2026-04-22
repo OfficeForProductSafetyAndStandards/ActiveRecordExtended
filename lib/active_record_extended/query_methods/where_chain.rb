@@ -98,6 +98,7 @@ module ActiveRecordExtended
   end
 end
 
+# rubocop:disable Style/OneClassPerFile
 module ActiveRecord
   module QueryMethods
     class WhereChain
@@ -113,3 +114,4 @@ module ActiveRecord
     end
   end
 end
+# rubocop:enable Style/OneClassPerFile
